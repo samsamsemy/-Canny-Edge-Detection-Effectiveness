@@ -39,7 +39,7 @@ def non_maximum_suppression(contours, threshold=0.5):
 
 
 # Read the image
-img = cv2.imread("D:/Kepentingan_Negara/kuliah/pcd/gambar/jalan.jpg")
+img = cv2.imread("jalan.jpg")
 
 # Convert image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
